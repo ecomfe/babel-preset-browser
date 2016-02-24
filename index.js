@@ -32,7 +32,7 @@ module.exports = {
         require('babel-plugin-transform-es2015-spread'),
         require('babel-plugin-transform-es2015-template-literals'),
         [
-            require('babel-plugin-transform-modules-esl'),
+            require('babel-plugin-transform-runtime'),
             {
                 polyfill: false,
                 regenerator: false

@@ -33,8 +33,7 @@
                 "regenerator": false
             }
         ],
-        "transform-modules-amd",
-        ""
+        "transform-modules-amd"
     ],
     "comments": false
 }
