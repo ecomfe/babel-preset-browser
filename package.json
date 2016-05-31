@@ -1,37 +1,38 @@
 {
-  "name": "babel-preset-browser",
-  "version": "1.0.0",
-  "description": "babel preset for modern browser and old IEs",
-  "main": "index.js",
-  "author": [
-    {
-      "name": "zongyu",
-      "email": "zongyu@baidu.com"
-    }
-  ],
-  "dependencies": {
-    "babel-plugin-check-es2015-constants": "^6.5.0",
-    "babel-plugin-transform-class-properties": "^6.5.2",
-    "babel-plugin-transform-es2015-arrow-functions": "^6.5.2",
-    "babel-plugin-transform-es2015-block-scoped-functions": "^6.5.0",
-    "babel-plugin-transform-es2015-block-scoping": "^6.5.0",
-    "babel-plugin-transform-es2015-classes": "latest",
-    "babel-plugin-transform-es2015-computed-properties": "^6.5.2",
-    "babel-plugin-transform-es2015-destructuring": "^6.5.0",
-    "babel-plugin-transform-es2015-literals": "^6.5.0",
-    "babel-plugin-transform-es2015-parameters": "^6.5.0",
-    "babel-plugin-transform-es2015-shorthand-properties": "^6.5.0",
-    "babel-plugin-transform-es2015-spread": "^6.5.2",
-    "babel-plugin-transform-es2015-template-literals": "^6.5.2",
-    "babel-plugin-transform-es3-member-expression-literals": "^6.5.0",
-    "babel-plugin-transform-es3-property-literals": "^6.5.0",
-    "babel-plugin-transform-modules-amd": "^1.0.0",
-    "babel-plugin-transform-object-rest-spread": "^6.5.0",
-    "babel-plugin-transform-remove-comments": "^1.0.0",
-    "babel-plugin-transform-runtime": "^6.5.2"
-  },
-  "repository": "http://gitlab.baidu.com/babel/babel-preset-browser.git",
-  "bugs": "http://gitlab.baidu.com/babel/babel-preset-browser/issues",
-  "readme": "Readme.md",
-  "license": "MIT"
+    "name": "babel-preset-browser",
+    "version": "1.0.1",
+    "description": "babel preset for old IEs and `AMD` modules",
+    "main": "index.js",
+    "author": {
+        "name": "liuxuanzy",
+        "email": "liuxuanzy@qq.com"
+    },
+    "dependencies": {
+        "babel-plugin-check-es2015-constants": "^6.8.0",
+        "babel-plugin-transform-class-properties": "^6.9.1",
+        "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+        "babel-plugin-transform-es2015-block-scoped-functions": "^6.8.0",
+        "babel-plugin-transform-es2015-block-scoping": "^6.9.0",
+        "babel-plugin-transform-es2015-classes": "^6.9.0",
+        "babel-plugin-transform-es2015-computed-properties": "^6.8.0",
+        "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+        "babel-plugin-transform-es2015-literals": "^6.8.0",
+        "babel-plugin-transform-es2015-parameters": "^6.9.0",
+        "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
+        "babel-plugin-transform-es2015-spread": "^6.8.0",
+        "babel-plugin-transform-es2015-template-literals": "^6.8.0",
+        "babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+        "babel-plugin-transform-es3-property-literals": "^6.8.0",
+        "babel-plugin-transform-for-of-array": "^1.0.0",
+        "babel-plugin-transform-modules-amd": "^1.0.1",
+        "babel-plugin-transform-object-rest-spread": "^6.8.0",
+        "babel-plugin-transform-runtime": "^6.9.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/ecomfe/babel-preset-browser.git"
+    },
+    "bugs": "http://github.com/ecomfe/babel-preset-browser/issues",
+    "readme": "Readme.md",
+    "license": "MIT"
 }
